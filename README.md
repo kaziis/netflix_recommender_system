@@ -1,4 +1,4 @@
-# 🍿 Replication of Netflix's Movie Recommender System 🍿 
+# 🍿 Replicate Netflix's Movie Recommender System 🍿 
 
 ## Project Overview
 This was a semester-long project for a course at Baruch College. The professor for the course allowed students to form groups of four to build a movie recommender system similar to Netflix using Python. The two files that were provided for this project are found in the ``csv_files`` folder. The dataframes had to be merged and fixed to later be used for the machine learning model.
