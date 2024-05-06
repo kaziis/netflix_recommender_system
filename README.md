@@ -1,16 +1,27 @@
-# 🍿 Replicate Netflix's Movie Recommender System 🍿
+# Movie Recommender System
 
-## Project Overview
-This was a semester-long project for a course at Baruch College. The professor for the course allowed students to form groups of four to build a movie recommender system similar to Netflix using Python. The two files that were provided for this project are found in the ``csv_files`` folder. The dataframes had to be merged and fixed to later be used for the machine learning model. The model itself can be found in the ``jupter_notebook`` folder.
+## Overview
+A Python-based recommender system that recommends similar movies.
 
-**Project Benefits**:
-- Introduced to Python libraries.
-  - ``pandas``
-  - ``scikit-learn``
-  - ``nltk``
-- Perform data preprocessing and textual data mining.
-- Create thresholds to improve recommendations.
-- Develop a working algorithms that can predict similar movies.
+- [Kaggle Datasets](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata)
 
-## Summary
-By the end of the project, the machine learning model allowed us to understand how valuable textual data can be. With the right data and tools, building algorithms that can produce decent recommendations opened the eyes of many students in the class. It definitely motivated me to look for more opportunities in the space of machine learning and test around with other types of data.
+## Inspiration
+Netflix's recommender system saves the company around **$1B** per year. There were past competitions where Netflix allowed the public to improve their algorithms. This inspired my group and I to explore a simpler version of building a recommender system trained on textual data.
+
+## Action & Solution
+After merging the two datasets and unpacking the columns, the group determined specific textual data to build the recommender system. Some of the data include information on the overview, genres, keywords, cast and crew members, and much more!
+
+The Jupyter Notebook has a more step by step process on what has been done and why.
+
+## Next Steps
+The algorithm and model can be improved by:
+- Developing a Neural Network
+- Appending more recent movies or TV shows
+- Using other features from the packed columns
+- Determining feature importance
+
+## Credits
+- [Kazi Shahria](https://www.linkedin.com/in/kazishahria/)
+- [Maham Rasheda](https://www.linkedin.com/in/mahamrasheda/)
+- [Muhammad Elbadri](https://www.linkedin.com/in/muhammadelbadri/)
+- [Sumaiya Gulshan](https://www.linkedin.com/in/sumaiya-gulshan-285289232/)
